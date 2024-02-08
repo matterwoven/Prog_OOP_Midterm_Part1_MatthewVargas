@@ -369,6 +369,8 @@ public static class MyDatabase
         Electronics smartphone = new Electronics("Smartphone", 799.99, "Apple");
         Groceries banana = new Groceries("Banana", 0.99, "2024-02-10");
 
+        data = new List<Product>();
+
         data.Add(tshirt);
         data.Add(smartphone);
         data.Add(banana);
