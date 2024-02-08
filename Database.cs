@@ -14,8 +14,8 @@ namespace Prog_OOP_Midterm_Part1
     // And extra credit if you explain what is happening here ( there's some advanced concepts here )
     // You are also welcome to ask me.
 
-    // Highlight the line of code underneath here and uncomment
-    // ctrl + k, u
+    // Highlight the line of code underneath here and uncomment with ctrl + k, u , or the button up top.
+
     #region Uncomment This Code
     //internal class Database
     //{
@@ -250,4 +250,4 @@ namespace Prog_OOP_Midterm_Part1
     //} // class Database
     #endregion
 
-} // namespace
+}
