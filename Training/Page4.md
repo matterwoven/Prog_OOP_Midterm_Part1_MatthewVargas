@@ -1,20 +1,33 @@
 ﻿## [Home](../README.md)
 
-## !! Important
+## !! Important - Before you beging Step 4
 
-Go into `Database.cs`. You should see a single line of code on 19 that says `Uncomment this code`
-![Uncomment Database](Images/UncommentDatabase.png)
+You need to uncomment the Database code for the project to keep working.
 
-Highlight this code and UNCOMMENT ALL. 
-- Hotkey - Ctrl + K, U
+1. In the solution explorer you will find a file called `Database.cs`.
+![Database Location](Images/DatabaseLocation.png)
 
-or
+2. Open this file, you will see the entire class is commented out.
 
-- Uncomment Button - ![Uncomment](Images/Uncomment.png)
+![Commented Out](Images/CommentedOut.png)
 
-If there's more than a single line of code, click the small plus next to the Line that says `Region` to condense it all.
+### You need to ***SELECT ALL AND UNCOMMENT***.
+
+![Uncomment All](Images/UncommentAll.gif)
+
+3. Select ALL the code and uncomment all of it.
+Choose one of the methods below
+- Hotkey:
+    - Select All: Ctrl + A
+    - Uncomment: Ctrl + K, U
+- Click Edit - > Select All
+    - Uncomment: Edit -> Advanced -> Uncomment Selection
+- Select All then click the uncomment button in the top right corner.
+- ![Uncomment](Images/Uncomment.png)
 
 This step is important or the database will not function correctly.
+
+---
 
 # Part 4 - Static Class `Config`
 
